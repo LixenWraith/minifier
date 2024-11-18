@@ -1,4 +1,4 @@
-module minifylite
+module minifier
 
 go 1.23.3
 
