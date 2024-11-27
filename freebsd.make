@@ -1,0 +1,4 @@
+-o freebsd
+-a amd64
+-s main.go
+-b bin/minifier_freebsd

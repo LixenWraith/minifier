@@ -19,7 +19,7 @@ import (
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Println("Usage: program <source_directory> <target_directory>")
+		fmt.Println("Usage: minifier <source_directory> <target_directory>")
 		os.Exit(1)
 	}
 
@@ -181,5 +181,5 @@ func minifier(input io.Reader, fileExt string) (io.Reader, error) {
 		return bytes.NewReader(content), nil
 	}
 
-	return bytes.NewReader(b.Bytes()), nil
+	return bytes.NewReader(content), nil
 }
