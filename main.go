@@ -181,5 +181,5 @@ func minifier(input io.Reader, fileExt string) (io.Reader, error) {
 		return bytes.NewReader(content), nil
 	}
 
-	return bytes.NewReader(content), nil
+	return bytes.NewReader(b.Bytes()), nil
 }
