@@ -56,6 +56,4 @@ This will:
 
 ## License
 
-MIT License
-
-
+BSD-3

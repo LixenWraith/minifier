@@ -1,4 +1,4 @@
 -o linux
 -a amd64
 -s main.go
--b bin/minifier_linux
+-t bin/minifier_linux
